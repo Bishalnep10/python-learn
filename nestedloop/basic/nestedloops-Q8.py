@@ -8,10 +8,7 @@ Copy
 1 1
 2 2
 """
-num_rows = 2
-num_cols = 2
-n = 1,2
-for i in range(num_rows):
-    for j in range(num_cols):
-        print(n, end="")
+for i in range(2):
+    for j in range(2):
+        print(i+1,end=" ")
     print()
