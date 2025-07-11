@@ -6,4 +6,4 @@ Copy
 """
 num_rows = 5
 for i in range(num_rows):
-    print("*", end="")
+    print("*", end=" ")
