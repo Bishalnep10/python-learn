@@ -1,8 +1,6 @@
 """
 Repeated Characters:
-
 Write a program that prints the letter A 5 times, each on a new line using a nested loop:
-
 Copy
 A
 A
