@@ -20,3 +20,4 @@ def full_pyramid(n):
             
 full_pyramid(5)
 
+
