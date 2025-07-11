@@ -9,6 +9,7 @@ Copy
 ***
 """
 num_rows = 4
-for i in range(num_rows):
-    print("*", end="")
-print()
+for row in range(1,num_rows+1):
+    for column in range(1,row+1):
+        print("*",end=" ")
+    print()
