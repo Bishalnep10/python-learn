@@ -2,7 +2,6 @@
 Simple Pyramid:
 
 Write a program that uses nested loops to print a simple pyramid of asterisks (*) with 5 rows:
-
 Copy
  *
  **
