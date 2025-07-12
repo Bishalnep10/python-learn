@@ -14,12 +14,20 @@ Copy
   ***
    *
 """
-def full_pyramid(n):
-    for i in range(1,n+1):
-        for j in range(n):
+def print_diamond(rows):
+    for i in range(rows):
+        for j in range(rows - i - 1):
             print(" ", end="")
-        for k in range(1,2*i):
+        for k in range(2 * i + 1):
+            print("*", end="")
+        print()
+    for i in range(rows - 2, -1, -1):
+        print("", end="")
+        for j in range(rows - i - 1):
+            print(" ", end="")
+        for k in range(2 * i + 1):
             print("*", end="")
         print()
 
-full_pyramid(5)
+
+print_diamond(6)
