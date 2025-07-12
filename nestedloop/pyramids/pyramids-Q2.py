@@ -8,7 +8,7 @@ Copy
 """
 
 
-def full_pyramid(n):
+def inverted_pyramid(n):
     for i in range(n, 0, -1):
         for j in range(n - i):
             print(" ", end="")
@@ -17,5 +17,5 @@ def full_pyramid(n):
         print()
 
 
-full_pyramid(5)
+inverted_pyramid(5)
 
