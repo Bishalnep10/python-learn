@@ -1,6 +1,5 @@
 """
 Create a program that prints an inverted pyramid of asterisks with 5 rows:
-
 Copy
 ***
  *
